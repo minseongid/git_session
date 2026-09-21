@@ -261,6 +261,21 @@ git push
 
 ---
 
+<<<<<<< HEAD
+=======
+## Clone
+
+이미 GitHub에 존재하는 Repository를 처음 내 컴퓨터로 가져올 때 사용합니다.
+
+```bash
+git clone <원격저장소주소>
+```
+
+`git clone`을 하면 Git 저장소 정보와 `origin`도 함께 설정되므로 `git init`과 `git remote add origin`을 다시 할 필요가 없습니다.
+
+---
+
+>>>>>>> 8919197e1c2f36094b38f261951d4e91b8fadce5
 ## Pull
 
 원격 저장소에 내가 가지고 있지 않은 새로운 Commit이 있다면 바로 Push할 수 없습니다.
@@ -283,6 +298,7 @@ git push
 
 지금까지 배운 내용을 활용해 자기소개 파일을 추가하고 GitHub 협업 흐름을 실습합니다.
 
+<<<<<<< HEAD
 ## Clone
 
 이미 GitHub에 존재하는 Repository를 처음 내 컴퓨터로 가져올 때 사용합니다.
@@ -295,6 +311,8 @@ git clone <원격저장소주소>
 
 ---
 
+=======
+>>>>>>> 8919197e1c2f36094b38f261951d4e91b8fadce5
 ## UMC Repository Clone
 
 실습 Repository를 내 컴퓨터로 가져옵니다.
@@ -304,8 +322,11 @@ git clone https://github.com/SSUMC-11th-organization/git_session.git
 cd git_session
 ```
 
+<<<<<<< HEAD
 Clone하면 현재 위치에 `git_session` 폴더가 생성됩니다. 이후 Git 명령어를 사용하기 위해 `cd git_session`으로 해당 폴더에 들어갑니다.
 
+=======
+>>>>>>> 8919197e1c2f36094b38f261951d4e91b8fadce5
 ---
 
 ## Issue 만들기
@@ -313,7 +334,11 @@ Clone하면 현재 위치에 `git_session` 폴더가 생성됩니다. 이후 Git
 GitHub에서 **Git Session 실습** Issue 템플릿을 선택해 Issue를 생성합니다.
 
 - Assignee: 본인
+<<<<<<< HEAD
 - Label: `git-session`이 적용됐는지 확인
+=======
+- Label: 실습에 맞는 Label 선택
+>>>>>>> 8919197e1c2f36094b38f261951d4e91b8fadce5
 - 생성된 Issue 번호 확인
 
 ---
@@ -389,7 +414,11 @@ compare : 닉네임/#이슈번호
 - 관련 Issue 연결
 - Reviewer 지정
 - Assignee에 본인 지정
+<<<<<<< HEAD
 - `git-session` Label 선택
+=======
+- Label 선택
+>>>>>>> 8919197e1c2f36094b38f261951d4e91b8fadce5
 - PR 생성 후 Files changed 확인
 
 ---
